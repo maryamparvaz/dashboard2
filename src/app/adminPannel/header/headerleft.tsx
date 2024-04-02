@@ -24,10 +24,10 @@ function headerleft() {
                 }
         }
         return (
-                <div className='w-[80%] md:w-[40%] xl:w-[30%] flex *:text-[22px] md:*:text-[25px] items-center'>
-                        <i onClick={openMenu} className="bi bi-list cursor-pointer"></i>
-                        <div className='w-[1px] h-[23px] bg-main mx-3'></div>
-                        <h1 className='ml-3 '>MARYAM PARVAZ</h1>
+                <div className='w-[80%] md:w-[40%] xl:w-[30%] flex *:text-[22px] md:*:text-[25px] items-center text-white'>
+                        <i onClick={openMenu} className="bi bi-list cursor-pointer text-white"></i>
+                        <div className='w-[1px] h-[23px] bg-main mx-3 '></div>
+                        <h1 className='ml-3 text-white'>MARYAM PARVAZ</h1>
                 </div>
         )
 }
